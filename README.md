@@ -16,7 +16,7 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
    + run_proc.sh
      + Main preprocessing script
    + ext_rsfc.py
-     + Code for extracting RSFC matrix from dtseries.nii (dim=(T, 91282))
+     + Code for extracting RSFC matrix from dtseries.nii
    + Gordon_352_parc.dlabel.nii
      + Parcellation atlas from **Gordon et al., 2016**
  

@@ -12,7 +12,6 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
     + ```sh
       pip install ciftify
       ```
-      + NumPy, Pandas, SciPy, Nibabel, Matplotlib, Seaborn
 + **Provided files**
  + run_proc.sh
  + ext_rsfc.py

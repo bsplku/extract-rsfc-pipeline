@@ -20,3 +20,7 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
  
  ## Check this pdf file for more details of this script
  [**link for pdf file**](http://bspl.korea.ac.kr/Board/Members_Only/Research_Materials/Code_Tool/rs-fMRI_preprocessing_script_210310.pdf)
+
+ ## Check the sample directory
+[**link for sample directory**](https://drive.google.com/file/d/1kjHRdeLG5D9WlM_46NqJNw_Fo-v17kz7/view)
+ 

@@ -19,4 +19,4 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
  + Gordon_352_parc.dlabel.nii
  
  ## Check this pdf file for more details of this script
- [*pdf*](http://bspl.korea.ac.kr/Board/Members_Only/Research_Materials/Code_Tool/rs-fMRI_preprocessing_script_210310.pdf)
+ [**link for pdf file**](http://bspl.korea.ac.kr/Board/Members_Only/Research_Materials/Code_Tool/rs-fMRI_preprocessing_script_210310.pdf)

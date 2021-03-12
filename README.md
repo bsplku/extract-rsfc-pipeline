@@ -8,8 +8,8 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
 + **FSL with MSM (Multimodal Surface Matching)**
 + **Ciftify**
 + In python 3 environment with several libraries
- + Will be installed via script automatically with several packages (pip install ciftify)
-  + NumPy, Pandas, SciPy, Nibabel, Matplotlib, Seaborn
+  + Will be installed via script automatically with several packages (pip install ciftify)
+    + NumPy, Pandas, SciPy, Nibabel, Matplotlib, Seaborn
 + **Provided files**
  + run_proc.sh
  + ext_rsfc.py

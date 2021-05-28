@@ -33,8 +33,13 @@ bold_arr = np.array(bold_img.dataobj)
 tot_vols = bold_arr.shape[0]
 tot_rois = 352
 
-# Zero mean
-bold_arr = bold_arr - np.expand_dims(np.mean(bold_arr, 1), 1)
+# Applying GSR or just demeaning each vertex's timeseries
+gsr_flag = False
+
+if gsr_flag:
+    bold_arr = bold_arr - np.expand_dims(np.mean(bold_arr, 1), 1)
+else:
+    bold_arr = bold_arr - np.expand_dims(np.mean(bold_arr, 0), 0)
  
 # Make empty array to store parcellated BOLD
 temp_bold_arr = np.zeros((tot_vols, tot_rois), dtype=np.float32)

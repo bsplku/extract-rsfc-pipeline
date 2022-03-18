@@ -1,5 +1,5 @@
 # extract-rsfc-pipeline
-A surface-based rs-fMRI preprocessing script for extracting resting-state functional connectivity (RSFC) matrix from raw bold timeseries and T1w image.
+A surface-based rs-fMRI preprocessing script for extracting resting-state functional connectivity (RSFC) matrix from raw BOLD timeseries and T1w image.
 
 ## Requirements
 + Python 3.6+
@@ -15,9 +15,9 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
       ```
 ## Provided files
  + run_proc.sh
-   + Main preprocessing script
+   + Shell-based main script
  + ext_rsfc.py
-   + Code for extracting RSFC matrix from dtseries.nii
+   + Python-based code for extracting RSFC matrix from dtseries.nii (BOLD timeseries)
  + Gordon_352_parc.dlabel.nii
    + Parcellation atlas from **Gordon et al., 2016**
  
@@ -30,3 +30,6 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
 [1] [Dickie, E. W., Anticevic, A., Smith, D. E., Coalson, T. S., Manogaran, M., Calarco, N., ... & Voineskos,
 A. N. (2019). Ciftify: A framework for surface-based analysis of legacy MR acquisitions. Neuroimage, 197,
 818-826](https://pubmed.ncbi.nlm.nih.gov/31091476/)
+
+## Author
+Jinwoo Hong / jw_hong@korea.ac.kr

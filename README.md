@@ -22,7 +22,7 @@ A surface-based rs-fMRI preprocessing script for extracting resting-state functi
    + Parcellation atlas from **Gordon et al., 2016**
  
  ## Detailed Description
-
+[Link](./extract_rsfc_pipeline.pdf)
  ## Sample data
 [Link](https://drive.google.com/file/d/1kjHRdeLG5D9WlM_46NqJNw_Fo-v17kz7/view)
  
